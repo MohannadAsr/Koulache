@@ -14,7 +14,7 @@ function VideoSection() {
 
   return (
     <div
-      className=" site-section min-h-[100vh] flex justify-center items-center"
+      className=" site-section  flex justify-center items-center"
       ref={video}
     >
       <div className="container px-3 ">
