@@ -51,8 +51,8 @@ function Footer() {
           <div className=" col-span-12 break-words md:col-span-2  px-2 mx-auto text-center   md:text-start ">
             <h5 className="  font-bold">Contact us</h5>
             <div className="flex flex-col  my-4 gap-3">
-              <a className="  font-bold font-number" href="tel:+09367/9878905">
-                09367/9878905
+              <a className="  font-bold font-number" href="tel:+491736408501">
+                +491736408501
               </a>
               <a className=" underline   " href="mailto:info@transzug.de">
                 info@koulache.de
