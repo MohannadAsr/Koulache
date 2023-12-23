@@ -19,19 +19,19 @@ function Services() {
   }, []);
 
   return (
-    <div className=" site-section min-h-[100vh] " id="services">
-      <div className={` container  ${pathname == '/' ? 'pt-24' : ''}`}>
+    <div className=" site-section  " id="services">
+      <div className={` container  `}>
         <h1 className=" text-center text-primary font-bold text-2xl md:text-3xl">
           Dienstleistungen
         </h1>
         <h3 className="text-center text-primary text-md md:text-xl py-1 font-semibold">
           Was wir tun konnen
         </h3>
-        <div className=" grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-2 md:gap-2 lg:gap-5 my-9 px-2">
+        <div className=" grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-2 lg:gap-5 my-9 px-2">
           {Array.from({ length: 4 }).map((_item, index) => {
             return (
               <div
-                className=" bg-secondary rounded-md shadow-lg overflow-hidden w-3/4 mx-auto"
+                className=" bg-secondary rounded-md shadow-lg overflow-hidden "
                 key={index}
               >
                 <div className=" overflow-hidden  ">

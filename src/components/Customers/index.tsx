@@ -23,8 +23,8 @@ function Customers() {
   ];
 
   return (
-    <div className=" site-section min-h-[100vh]  " id=''>
-      <div className=" container  pt-32 ">
+    <div className=" site-section   " id="">
+      <div className=" container py-3  ">
         <h1 className=" text-center text-primary font-bold text-2xl md:text-3xl italic mb-8">
           Was kunden über uns sagen
         </h1>
