@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  box-sizing: border-box;
+  transition: scale 0.4s ease-in-out;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #009ad9;
+}
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  @apply rounded-md;
+}
+
+@layer base {
+  html {
+    font-family: 'Raleway', sans-serif;
+    user-select: none;
+    scroll-behavior: smooth;
+  }
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+input {
+  @apply bg-white/60 px-2 py-4 rounded-md text-black border-none outline-none placeholder:text-primary placeholder:font-bold hover:bg-white focus:bg-white transition-all;
+}
+
+.site-section {
+  @apply py-5 md:py-10 bg-[#7F4E52]/10;
+}
+
+.hero-section {
+  min-height: calc(100vh - 71px);
+
+  .hero-intro {
+    background: rgba(227, 227, 231, 0.6);
+    backdrop-filter: blur(3.5px);
+  }
+}
+
+.hero {
+  &::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 3, 3, 0.3);
+    z-index: 1;
+  }
+}
+
+.footer-links {
+  a {
+    @apply hover:text-white cursor-pointer w-fit;
+  }
+}
+
+.section-blur-overlay::after {
+  position: absolute;
+  content: '';
+  background: rgba(14, 14, 15, 0.5);
+  backdrop-filter: blur(7.5px);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.gradient-border {
+  border-width: 1px;
+
+  border-image: linear-gradient(to top, #7f525d, #fff);
+  border-image-slice: 1;
+}
+
+.custom-trans {
+  transition: all 0.4s ease-in;
+}
+
+.transparent-text {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #009ad9;
+  letter-spacing: 5px;
+}
+.nav-bar {
+  transition: 0.3s linear all;
+}
