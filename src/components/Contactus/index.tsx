@@ -25,8 +25,8 @@ function ContactUs() {
   const contactInfo: { icon: typeof person; text: string }[] = [
     { icon: person, text: 'Hocine Koulache' },
     { icon: location, text: '‌Josf-wild-str.14xx97294 Unterpleichfeld' },
-    { icon: phone, text: '+491736408501' },
-    { icon: telephone, text: '09367/9878905' },
+    { icon: phone, text: '+49 173 6408501' },
+    { icon: telephone, text: '+49 936 9878905' },
     { icon: mail, text: 'info@koulache.de' },
   ];
 
@@ -48,7 +48,7 @@ function ContactUs() {
             <div className=" grid grid-cols-1 md:grid-cols-2 gap-5 my-7 ">
               <div className=" grid grid-cols-2 gap-3">
                 <input
-                  placeholder="Full-name"
+                  placeholder="Vollständige Name"
                   id="name"
                   name="name"
                   onChange={(e) => {
@@ -71,7 +71,7 @@ function ContactUs() {
                   }}
                 />
                 <input
-                  placeholder="Phone number"
+                  placeholder="Telefonnummer"
                   id="phoneNumber"
                   name="phoneNumber"
                   onChange={(e) => {
@@ -82,7 +82,7 @@ function ContactUs() {
                   }}
                 />
                 <input
-                  placeholder="Object"
+                  placeholder="Betreff"
                   id="Object"
                   name="Object"
                   onChange={(e) => {
@@ -92,9 +92,9 @@ function ContactUs() {
                     });
                   }}
                 />
-                <input
+                <textarea
                   className=" col-span-2"
-                  placeholder="Message"
+                  placeholder="Ihr Nachricht"
                   id="Msg"
                   name="Msg"
                   onChange={(e) => {

@@ -19,8 +19,8 @@ function HeroImg() {
         <h1 className="text-center text-[#04242f] font-bold   md:text-6xl text-3xl">
           Koulache
         </h1>
-        <h1 className="text-center text-[#036c9b] font-semibold  -mt-2  md:text-5xl text-2xl">
-          Computer Serivce
+        <h1 className="text-center text-[#036c9b] font-semibold  -mt-2  md:text-5xl text-2xl w-auto md:w-[550px]">
+          Computer Service & Überwachungskamera
         </h1>
       </motion.div>
     </div>

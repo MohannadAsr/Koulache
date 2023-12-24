@@ -43,7 +43,7 @@ function NavBar(props: propsType) {
   const NavLinks = [
     { name: t('Startseite'), path: '/' },
     { name: t('Services'), path: '/services' },
-    { name: t('Galerie'), path: '/portfolio' },
+    { name: t('Galerie'), path: '/galerie' },
     { name: t('AboutUs'), path: '/about' },
     { name: t('ContactUs'), path: '/contact' },
   ];

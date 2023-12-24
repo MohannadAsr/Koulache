@@ -31,12 +31,13 @@ video {
   object-fit: cover;
 }
 
-input {
+input,
+textarea {
   @apply bg-white/60 px-2 py-4 rounded-md text-black border-none outline-none placeholder:text-primary placeholder:font-bold hover:bg-white focus:bg-white transition-all;
 }
 
 .site-section {
-  @apply py-10 md:py-20 bg-[#7F4E52]/10;
+  @apply py-10 md:py-20;
 }
 
 .hero-section {
